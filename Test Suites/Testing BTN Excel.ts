@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Testing BTN Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>820cd881-1f34-44bb-ac53-f8e4026ff743</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c3c1287-ee68-4794-a760-c7688c6e08e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Hitung</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Testing BTN Excel Baru</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>A</value>
+         <variableId>96e016fd-cf80-400b-9a4e-07c700ab088a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>B</value>
+         <variableId>1464245a-f132-4340-aba9-2d5f1dbec607</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected</value>
+         <variableId>ae1145bb-10df-49a6-8e0c-39193f062005</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>C</value>
+         <variableId>dcad02e1-06c1-4138-a9a1-da5af23827b1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

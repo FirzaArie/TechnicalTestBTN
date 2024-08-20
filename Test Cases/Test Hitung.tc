@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Hitung</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eddedd76-7448-4936-84f8-5835e26fc6ab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96e016fd-cf80-400b-9a4e-07c700ab088a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1464245a-f132-4340-aba9-2d5f1dbec607</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae1145bb-10df-49a6-8e0c-39193f062005</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcad02e1-06c1-4138-a9a1-da5af23827b1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>96e016fd-cf80-400b-9a4e-07c700ab088a</id>
+      <masked>false</masked>
+      <name>A</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>1464245a-f132-4340-aba9-2d5f1dbec607</id>
+      <masked>false</masked>
+      <name>B</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 20.000'</defaultValue>
+      <description></description>
+      <id>ae1145bb-10df-49a6-8e0c-39193f062005</id>
+      <masked>false</masked>
+      <name>Expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>dcad02e1-06c1-4138-a9a1-da5af23827b1</id>
+      <masked>false</masked>
+      <name>C</name>
+   </variable>
+</TestCaseEntity>
