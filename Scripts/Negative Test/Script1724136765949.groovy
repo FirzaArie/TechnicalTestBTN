@@ -21,18 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.btnproperti.co.id/tools/hitung-harga-properti')
 
-WebUI.setText(findTestObject('Object Repository/Positive Test/input_Hitung Harga Properti Maksimal_floati_bf0ef7'), PenghasilanTotal)
+WebUI.setText(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Hitung Harga Properti Maksimal_floati_bf0ef7'), 
+    PengahsilanTotal)
 
-WebUI.setText(findTestObject('Object Repository/Positive Test/input_Per Bulan_floating-label-field'), Pengeluaran)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Positive Test/select_Jangka Waktu1 Tahun2 Tahun3 Tahun4 T_cf4447'), 
-    JangkaWaktu, true)
+WebUI.click(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/div_Hitung'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Positive Test/button_Hitung'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/select_Jangka Waktu1 Tahun2 Tahun3 Tahun4 T_cf4447'), 
+    JangkaWaktu, true)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Positive Test/h3_Rp 2.000.000'), Expected)
+WebUI.click(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/form_Penghasilan TotalPer BulanRpPengeluara_f2fa8d'))
+
+WebUI.setText(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Per Bulan_floating-label-field'), 
+    Pengeluaran)
+
+WebUI.click(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/div_Hitung'))
 
 WebUI.takeScreenshot()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Testing BTN Excel</name>
+   <name>Testing BTN dengan Excel</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,42 +12,67 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>820cd881-1f34-44bb-ac53-f8e4026ff743</testSuiteGuid>
    <testCaseLink>
+      <guid>ca7547d8-b994-4bf8-bac8-08bf082a1d63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative Test</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bab1badf-edf7-4f1a-a0b6-a353e3c4a5ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff8ef352-1055-4196-b22b-e1a69b8c534f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26f4b497-b7e7-4c75-90a0-f73d5eaf2e74</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5c3c1287-ee68-4794-a760-c7688c6e08e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Hitung</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</id>
+         <id>5d205fbe-c50e-4233-b2e5-af867c731005</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Testing BTN Excel Baru</testDataId>
+         <testDataId>Data Files/Techincal Test BTN</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <testDataLinkId>5d205fbe-c50e-4233-b2e5-af867c731005</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>A</value>
+         <value>PenghasilanTotal</value>
          <variableId>96e016fd-cf80-400b-9a4e-07c700ab088a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <testDataLinkId>5d205fbe-c50e-4233-b2e5-af867c731005</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>B</value>
+         <value>Pengeluaran</value>
          <variableId>1464245a-f132-4340-aba9-2d5f1dbec607</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <testDataLinkId>5d205fbe-c50e-4233-b2e5-af867c731005</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Expected</value>
          <variableId>ae1145bb-10df-49a6-8e0c-39193f062005</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9b9ea8d6-ebcf-43cf-9629-75fe75248a67</testDataLinkId>
+         <testDataLinkId>5d205fbe-c50e-4233-b2e5-af867c731005</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>C</value>
+         <value>JangkaWaktu</value>
          <variableId>dcad02e1-06c1-4138-a9a1-da5af23827b1</variableId>
       </variableLink>
    </testCaseLink>

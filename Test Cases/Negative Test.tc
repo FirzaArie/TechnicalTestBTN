@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Test</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0eb3a807-2bb6-4a28-affa-8394f9328ef5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bab1badf-edf7-4f1a-a0b6-a353e3c4a5ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff8ef352-1055-4196-b22b-e1a69b8c534f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26f4b497-b7e7-4c75-90a0-f73d5eaf2e74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>bab1badf-edf7-4f1a-a0b6-a353e3c4a5ff</id>
+      <masked>false</masked>
+      <name>PengahsilanTotal</name>
+   </variable>
+   <variable>
+      <defaultValue>'50000'</defaultValue>
+      <description></description>
+      <id>ff8ef352-1055-4196-b22b-e1a69b8c534f</id>
+      <masked>false</masked>
+      <name>Pengeluaran</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>26f4b497-b7e7-4c75-90a0-f73d5eaf2e74</id>
+      <masked>false</masked>
+      <name>JangkaWaktu</name>
+   </variable>
+</TestCaseEntity>

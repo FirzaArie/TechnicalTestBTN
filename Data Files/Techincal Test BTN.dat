@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description></description>
-   <name>Testing BTN Excel Baru</name>
+   <description>Data Excel</description>
+   <name>Techincal Test BTN</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>f1075add-d97f-4196-b5ec-e9764a0049d3</dataFileGUID>
+   <dataFileGUID>8dec11f0-c18b-4bbb-9679-9596618e9dfe</dataFileGUID>
    <dataSourceUrl>C:\Users\grotl\Downloads\DOC MII\BTNQATest.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
