@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.btnproperti.co.id/tools/hitung-harga-properti')
 
-WebUI.setText(findTestObject('Object Repository/Positive Test/input_Hitung Harga Properti Maksimal_floati_bf0ef7'), PenghasilanTotal)
+WebUI.setText(findTestObject('Object Repository/Positive Test/input_Hitung Harga Properti Maksimal_floati_bf0ef7'), A)
 
-WebUI.setText(findTestObject('Object Repository/Positive Test/input_Per Bulan_floating-label-field'), Pengeluaran)
+WebUI.setText(findTestObject('Object Repository/Positive Test/input_Per Bulan_floating-label-field'), B)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Positive Test/select_Jangka Waktu1 Tahun2 Tahun3 Tahun4 T_cf4447'), 
-    JangkaWaktu, true)
+    C, true)
 
 WebUI.takeScreenshot()
 
