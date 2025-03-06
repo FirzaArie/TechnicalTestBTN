@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.btnproperti.co.id/tools/hitung-harga-properti')
 
 WebUI.setText(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Hitung Harga Properti Maksimal_floati_bf0ef7'), 
-    PengahsilanTotal)
+    PenghasilanTotal)
 
 WebUI.click(findTestObject('Object Repository/Negative Test/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/div_Hitung'))
 
